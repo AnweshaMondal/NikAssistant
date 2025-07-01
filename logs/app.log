@@ -1,0 +1,150 @@
+2025-07-01 10:34:59,969 - nikassistant - INFO - Data files initialized successfully
+2025-07-01 10:37:27,076 - nikassistant - INFO - Data files initialized successfully
+2025-07-01 10:37:29,382 - nikassistant.notifications - INFO - Firebase not configured, mobile notifications disabled
+2025-07-01 10:37:29,382 - nikassistant - INFO - Data files initialized successfully
+2025-07-01 10:37:30,114 - nikassistant.notifications - INFO - Firebase not configured, mobile notifications disabled
+2025-07-01 10:37:30,115 - nikassistant.scheduler - INFO - Loaded and scheduled 0 tasks
+2025-07-01 10:37:30,117 - apscheduler.scheduler - INFO - Scheduler started
+2025-07-01 10:37:30,119 - nikassistant.scheduler - INFO - Scheduler started successfully
+2025-07-01 10:37:30,120 - apscheduler.scheduler - INFO - Added job "TaskScheduler.send_daily_summary" to job store "default"
+2025-07-01 10:37:30,122 - apscheduler.scheduler - INFO - Added job "TaskScheduler.check_overdue_tasks" to job store "default"
+2025-07-01 10:37:30,124 - nikassistant.notifier - INFO - Smart notifier started
+2025-07-01 10:37:30,146 - nikassistant.calendar - WARNING - Google Calendar credentials not found
+2025-07-01 10:38:08,125 - nikassistant - INFO - Data files initialized successfully
+2025-07-01 10:38:16,727 - nikassistant - INFO - Data files initialized successfully
+2025-07-01 10:38:17,710 - nikassistant - INFO - Data files initialized successfully
+2025-07-01 10:38:23,494 - nikassistant - INFO - Data files initialized successfully
+2025-07-01 10:38:26,698 - nikassistant - INFO - Data files initialized successfully
+2025-07-01 10:38:29,012 - nikassistant - INFO - Data files initialized successfully
+2025-07-01 10:38:31,861 - nikassistant - INFO - Data files initialized successfully
+2025-07-01 10:38:40,764 - nikassistant - INFO - Data files initialized successfully
+2025-07-01 10:38:42,834 - nikassistant - INFO - Data files initialized successfully
+2025-07-01 10:39:29,735 - nikassistant - INFO - Data files initialized successfully
+2025-07-01 10:39:29,760 - nikassistant.calendar - WARNING - Google Calendar credentials not found
+2025-07-01 10:40:08,014 - nikassistant - INFO - Data files initialized successfully
+2025-07-01 10:40:08,038 - nikassistant.calendar - WARNING - Google Calendar credentials not found
+2025-07-01 10:42:24,945 - nikassistant - INFO - Data files initialized successfully
+2025-07-01 10:42:26,430 - nikassistant - INFO - Data files initialized successfully
+2025-07-01 10:42:26,433 - nikassistant.calendar - WARNING - Google Calendar credentials not found
+2025-07-01 10:46:38,054 - nikassistant - INFO - Data files initialized successfully
+2025-07-01 10:46:38,269 - nikassistant.calendar - WARNING - Google Calendar credentials not found
+2025-07-01 10:50:06,019 - nikassistant - INFO - Data files initialized successfully
+2025-07-01 10:50:16,808 - nikassistant - INFO - Data files initialized successfully
+2025-07-01 10:50:23,378 - nikassistant - INFO - Data files initialized successfully
+2025-07-01 10:50:23,385 - nikassistant.calendar - WARNING - Google Calendar credentials not found
+2025-07-01 10:50:24,730 - nikassistant - INFO - Data files initialized successfully
+2025-07-01 10:50:27,163 - nikassistant - INFO - Data files initialized successfully
+2025-07-01 10:50:27,262 - nikassistant.calendar - WARNING - Google Calendar credentials not found
+2025-07-01 11:00:34,488 - nikassistant - INFO - Data files initialized successfully
+2025-07-01 11:00:35,185 - nikassistant.notifications - INFO - Firebase not configured, mobile notifications disabled
+2025-07-01 11:00:35,186 - nikassistant - INFO - Data files initialized successfully
+2025-07-01 11:00:35,429 - nikassistant.notifications - INFO - Firebase not configured, mobile notifications disabled
+2025-07-01 11:00:35,430 - nikassistant.scheduler - INFO - Loaded and scheduled 1 tasks
+2025-07-01 11:00:35,430 - apscheduler.scheduler - INFO - Scheduler started
+2025-07-01 11:00:35,431 - nikassistant.scheduler - INFO - Scheduler started successfully
+2025-07-01 11:00:35,432 - apscheduler.scheduler - INFO - Added job "TaskScheduler.send_daily_summary" to job store "default"
+2025-07-01 11:00:35,432 - apscheduler.scheduler - INFO - Added job "TaskScheduler.check_overdue_tasks" to job store "default"
+2025-07-01 11:00:35,434 - nikassistant.notifier - INFO - Smart notifier started
+2025-07-01 11:00:35,641 - nikassistant.calendar - WARNING - Google Calendar credentials not found
+2025-07-01 11:00:38,412 - nikassistant - INFO - Data files initialized successfully
+2025-07-01 11:01:49,636 - nikassistant - INFO - Data files initialized successfully
+2025-07-01 11:01:50,323 - nikassistant.notifications - INFO - Firebase not configured, mobile notifications disabled
+2025-07-01 11:01:50,323 - nikassistant - INFO - Data files initialized successfully
+2025-07-01 11:01:50,558 - nikassistant.notifications - INFO - Firebase not configured, mobile notifications disabled
+2025-07-01 11:01:50,559 - nikassistant.scheduler - INFO - Loaded and scheduled 1 tasks
+2025-07-01 11:01:50,559 - apscheduler.scheduler - INFO - Scheduler started
+2025-07-01 11:01:50,561 - nikassistant.scheduler - INFO - Scheduler started successfully
+2025-07-01 11:01:50,561 - apscheduler.scheduler - INFO - Added job "TaskScheduler.send_daily_summary" to job store "default"
+2025-07-01 11:01:50,561 - apscheduler.scheduler - INFO - Added job "TaskScheduler.check_overdue_tasks" to job store "default"
+2025-07-01 11:01:50,562 - nikassistant.notifier - INFO - Smart notifier started
+2025-07-01 11:01:50,739 - nikassistant.calendar - WARNING - Google Calendar credentials not found
+2025-07-01 11:01:57,211 - nikassistant - INFO - Data files initialized successfully
+2025-07-01 11:02:30,348 - nikassistant - INFO - Data files initialized successfully
+2025-07-01 11:02:33,224 - nikassistant - INFO - Data files initialized successfully
+2025-07-01 11:02:33,231 - nikassistant.calendar - WARNING - Google Calendar credentials not found
+2025-07-01 11:02:34,921 - nikassistant - INFO - Data files initialized successfully
+2025-07-01 11:02:36,345 - nikassistant - INFO - Data files initialized successfully
+2025-07-01 11:02:38,300 - nikassistant - INFO - Data files initialized successfully
+2025-07-01 11:02:38,408 - nikassistant.calendar - WARNING - Google Calendar credentials not found
+2025-07-01 11:04:24,488 - nikassistant - INFO - Data files initialized successfully
+2025-07-01 11:04:25,460 - nikassistant.notifications - INFO - Firebase not configured, mobile notifications disabled
+2025-07-01 11:04:25,461 - nikassistant - INFO - Data files initialized successfully
+2025-07-01 11:04:25,730 - nikassistant.notifications - INFO - Firebase not configured, mobile notifications disabled
+2025-07-01 11:04:25,730 - nikassistant.scheduler - INFO - Loaded and scheduled 1 tasks
+2025-07-01 11:04:25,731 - apscheduler.scheduler - INFO - Scheduler started
+2025-07-01 11:04:25,732 - nikassistant.scheduler - INFO - Scheduler started successfully
+2025-07-01 11:04:25,732 - apscheduler.scheduler - INFO - Added job "TaskScheduler.send_daily_summary" to job store "default"
+2025-07-01 11:04:25,732 - apscheduler.scheduler - INFO - Added job "TaskScheduler.check_overdue_tasks" to job store "default"
+2025-07-01 11:04:25,733 - nikassistant.notifier - INFO - Smart notifier started
+2025-07-01 11:04:25,974 - nikassistant.calendar - WARNING - Google Calendar credentials not found
+2025-07-01 11:04:32,385 - nikassistant - INFO - Data files initialized successfully
+2025-07-01 11:04:38,769 - nikassistant - INFO - Data files initialized successfully
+2025-07-01 11:04:40,057 - nikassistant - INFO - Data files initialized successfully
+2025-07-01 11:04:42,602 - nikassistant - INFO - Data files initialized successfully
+2025-07-01 11:04:42,720 - nikassistant.calendar - WARNING - Google Calendar credentials not found
+2025-07-01 11:05:06,015 - nikassistant - INFO - Data files initialized successfully
+2025-07-01 11:05:08,752 - nikassistant - INFO - Data files initialized successfully
+2025-07-01 11:05:10,116 - nikassistant - INFO - Data files initialized successfully
+2025-07-01 11:05:12,648 - nikassistant - INFO - Data files initialized successfully
+2025-07-01 11:05:12,766 - nikassistant.calendar - WARNING - Google Calendar credentials not found
+2025-07-01 11:05:14,933 - nikassistant - INFO - Data files initialized successfully
+2025-07-01 11:05:14,940 - nikassistant.notifications - INFO - Firebase not configured, mobile notifications disabled
+2025-07-01 11:05:14,941 - nikassistant.scheduler - INFO - Loaded and scheduled 1 tasks
+2025-07-01 11:05:14,942 - apscheduler.scheduler - INFO - Scheduler started
+2025-07-01 11:05:14,943 - nikassistant.scheduler - INFO - Scheduler started successfully
+2025-07-01 11:05:14,944 - apscheduler.scheduler - INFO - Added job "TaskScheduler.send_daily_summary" to job store "default"
+2025-07-01 11:05:14,945 - apscheduler.scheduler - INFO - Added job "TaskScheduler.check_overdue_tasks" to job store "default"
+2025-07-01 11:05:15,058 - nikassistant.calendar - WARNING - Google Calendar credentials not found
+2025-07-01 11:05:16,667 - nikassistant - INFO - Data files initialized successfully
+2025-07-01 11:05:18,952 - nikassistant - INFO - Data files initialized successfully
+2025-07-01 11:05:21,771 - nikassistant - INFO - Data files initialized successfully
+2025-07-01 11:05:24,405 - nikassistant - INFO - Data files initialized successfully
+2025-07-01 11:06:07,319 - nikassistant - INFO - Data files initialized successfully
+2025-07-01 11:06:07,328 - nikassistant.notifications - INFO - Firebase not configured, mobile notifications disabled
+2025-07-01 11:06:07,328 - nikassistant - INFO - Data files initialized successfully
+2025-07-01 11:06:07,396 - nikassistant.calendar - WARNING - Google Calendar credentials not found
+2025-07-01 11:06:09,276 - nikassistant - INFO - Data files initialized successfully
+2025-07-01 11:06:09,282 - nikassistant.notifications - INFO - Firebase not configured, mobile notifications disabled
+2025-07-01 11:06:09,283 - nikassistant.scheduler - INFO - Loaded and scheduled 1 tasks
+2025-07-01 11:06:09,285 - apscheduler.scheduler - INFO - Scheduler started
+2025-07-01 11:06:09,287 - nikassistant.scheduler - INFO - Scheduler started successfully
+2025-07-01 11:06:09,287 - apscheduler.scheduler - INFO - Added job "TaskScheduler.send_daily_summary" to job store "default"
+2025-07-01 11:06:09,288 - apscheduler.scheduler - INFO - Added job "TaskScheduler.check_overdue_tasks" to job store "default"
+2025-07-01 11:06:09,289 - nikassistant.notifier - INFO - Smart notifier started
+2025-07-01 11:06:09,339 - nikassistant.calendar - WARNING - Google Calendar credentials not found
+2025-07-01 11:06:28,473 - nikassistant - INFO - Data files initialized successfully
+2025-07-01 11:06:29,218 - nikassistant.notifications - INFO - Firebase not configured, mobile notifications disabled
+2025-07-01 11:06:29,218 - nikassistant - INFO - Data files initialized successfully
+2025-07-01 11:06:29,435 - nikassistant.notifications - INFO - Firebase not configured, mobile notifications disabled
+2025-07-01 11:06:29,436 - nikassistant.scheduler - INFO - Loaded and scheduled 1 tasks
+2025-07-01 11:06:29,437 - apscheduler.scheduler - INFO - Scheduler started
+2025-07-01 11:06:29,437 - nikassistant.scheduler - INFO - Scheduler started successfully
+2025-07-01 11:06:29,438 - apscheduler.scheduler - INFO - Added job "TaskScheduler.send_daily_summary" to job store "default"
+2025-07-01 11:06:29,438 - apscheduler.scheduler - INFO - Added job "TaskScheduler.check_overdue_tasks" to job store "default"
+2025-07-01 11:06:29,440 - nikassistant.notifier - INFO - Smart notifier started
+2025-07-01 11:06:29,660 - nikassistant.calendar - WARNING - Google Calendar credentials not found
+2025-07-01 11:06:33,711 - nikassistant - INFO - Data files initialized successfully
+2025-07-01 11:06:36,075 - nikassistant - INFO - Data files initialized successfully
+2025-07-01 11:06:38,846 - nikassistant - INFO - Data files initialized successfully
+2025-07-01 11:06:40,455 - nikassistant - INFO - Data files initialized successfully
+2025-07-01 11:06:43,837 - nikassistant - INFO - Data files initialized successfully
+2025-07-01 11:06:43,943 - nikassistant.calendar - WARNING - Google Calendar credentials not found
+2025-07-01 11:06:55,677 - nikassistant - INFO - Data files initialized successfully
+2025-07-01 11:06:57,033 - nikassistant - INFO - Data files initialized successfully
+2025-07-01 11:06:58,684 - nikassistant - INFO - Data files initialized successfully
+2025-07-01 11:06:58,691 - nikassistant.calendar - WARNING - Google Calendar credentials not found
+2025-07-01 11:06:59,835 - nikassistant - INFO - Data files initialized successfully
+2025-07-01 11:07:32,671 - nikassistant - INFO - Data files initialized successfully
+2025-07-01 11:07:45,975 - nikassistant - INFO - Data files initialized successfully
+2025-07-01 11:08:42,170 - nikassistant - INFO - Data files initialized successfully
+2025-07-01 11:08:44,526 - nikassistant - INFO - Data files initialized successfully
+2025-07-01 11:08:48,143 - nikassistant - INFO - Data files initialized successfully
+2025-07-01 11:08:49,402 - nikassistant - INFO - Data files initialized successfully
+2025-07-01 11:08:52,468 - nikassistant - INFO - Data files initialized successfully
+2025-07-01 11:08:52,572 - nikassistant.calendar - WARNING - Google Calendar credentials not found
+2025-07-01 11:08:59,140 - nikassistant - INFO - Data files initialized successfully
+2025-07-01 11:08:59,229 - nikassistant.calendar - WARNING - Google Calendar credentials not found
+2025-07-01 11:09:01,826 - nikassistant - INFO - Data files initialized successfully
+2025-07-01 11:09:03,985 - nikassistant - INFO - Data files initialized successfully
+2025-07-01 11:09:37,289 - nikassistant - INFO - Data files initialized successfully
+2025-07-01 11:09:37,384 - nikassistant.calendar - WARNING - Google Calendar credentials not found
