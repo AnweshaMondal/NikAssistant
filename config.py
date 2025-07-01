@@ -48,6 +48,8 @@ def init_data_files():
     if not CALENDAR_FILE.exists():
         with open(CALENDAR_FILE, 'w') as f:
             f.write('{"events": []}')
+    
+    logger.info("Data files initialized successfully")
 
 # Email configuration
 EMAIL_USER = os.getenv("EMAIL_USER")

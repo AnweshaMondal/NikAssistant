@@ -20,6 +20,7 @@ def render_dashboard():
         render_quick_add()
         render_upcoming_events()
         render_quick_notes()
+        render_notes_summary()
 
 def render_tasks_summary():
     """Render task summary section"""
@@ -223,3 +224,41 @@ def render_quick_notes():
             with st.expander(note.get('content', '')[:50] + "..."):
                 st.write(note.get('content', ''))
                 st.caption(f"Created: {note.get('created_at', '')}")
+
+def render_notes_summary():
+    """Render notes summary widget"""
+    st.subheader("📒 Notes Summary")
+    
+    # Get notes data
+    notes = st.session_state.notes
+    
+    if not notes:
+        st.info("No notes yet. Create your first note!")
+        return
+    
+    # Calculate statistics
+    total_notes = len(notes)
+    private_notes = sum(1 for note in notes if note.get('is_private', False))
+    categories = set(note.get('category', 'General') for note in notes)
+    
+    # Display metrics
+    col1, col2 = st.columns(2)
+    
+    with col1:
+        st.metric("Total Notes", total_notes)
+    with col2:
+        st.metric("Categories", len(categories))
+    
+    # Show recent notes
+    st.write("**Recent Notes:**")
+    recent_notes = sorted(notes, key=lambda x: x.get('created_at', ''), reverse=True)[:3]
+    
+    for note in recent_notes:
+        title = note.get('title', 'Untitled')
+        if len(title) > 30:
+            title = title[:30] + "..."
+        
+        category = note.get('category', 'General')
+        privacy = "🔒" if note.get('is_private', False) else "🔓"
+        
+        st.write(f"{privacy} **{title}** ({category})")

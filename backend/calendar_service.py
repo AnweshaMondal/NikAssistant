@@ -142,3 +142,95 @@ class CalendarService:
         except Exception as e:
             logger.error(f"Error reading cached events: {e}")
             return []
+    
+    def create_event(self, event_data):
+        """
+        Create a new calendar event
+        
+        Args:
+            event_data (dict): Event data with summary, description, start, end
+            
+        Returns:
+            bool: Success status
+        """
+        if not self.service:
+            logger.warning("Google Calendar service not available")
+            return False
+        
+        try:
+            created_event = self.service.events().insert(
+                calendarId=self.calendar_id,
+                body=event_data
+            ).execute()
+            
+            logger.info(f"Event created successfully: {created_event.get('id')}")
+            return True
+            
+        except HttpError as e:
+            logger.error(f"Error creating calendar event: {e}")
+            return False
+        except Exception as e:
+            logger.error(f"Unexpected error creating event: {e}")
+            return False
+    
+    def update_event(self, event_id, event_data):
+        """
+        Update an existing calendar event
+        
+        Args:
+            event_id (str): Event ID to update
+            event_data (dict): Updated event data
+            
+        Returns:
+            bool: Success status
+        """
+        if not self.service:
+            logger.warning("Google Calendar service not available")
+            return False
+        
+        try:
+            updated_event = self.service.events().update(
+                calendarId=self.calendar_id,
+                eventId=event_id,
+                body=event_data
+            ).execute()
+            
+            logger.info(f"Event updated successfully: {event_id}")
+            return True
+            
+        except HttpError as e:
+            logger.error(f"Error updating calendar event: {e}")
+            return False
+        except Exception as e:
+            logger.error(f"Unexpected error updating event: {e}")
+            return False
+    
+    def delete_event(self, event_id):
+        """
+        Delete a calendar event
+        
+        Args:
+            event_id (str): Event ID to delete
+            
+        Returns:
+            bool: Success status
+        """
+        if not self.service:
+            logger.warning("Google Calendar service not available")
+            return False
+        
+        try:
+            self.service.events().delete(
+                calendarId=self.calendar_id,
+                eventId=event_id
+            ).execute()
+            
+            logger.info(f"Event deleted successfully: {event_id}")
+            return True
+            
+        except HttpError as e:
+            logger.error(f"Error deleting calendar event: {e}")
+            return False
+        except Exception as e:
+            logger.error(f"Unexpected error deleting event: {e}")
+            return False

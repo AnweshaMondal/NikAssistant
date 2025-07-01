@@ -1,0 +1,343 @@
+/* NikAssistant Custom Styles */
+
+:root {
+    --primary-color: #FF6B6B;
+    --secondary-color: #4ECDC4;
+    --background-color: #F7FFF7;
+    --text-color: #1A535C;
+    --accent-color: #FFE66D;
+    --success-color: #4ECDC4;
+    --warning-color: #FFE66D;
+    --error-color: #FF6B6B;
+    --border-radius: 8px;
+    --box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Main app styling */
+.main .block-container {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    max-width: 1200px;
+}
+
+/* Header styling */
+.main h1 {
+    color: var(--primary-color);
+    border-bottom: 2px solid var(--accent-color);
+    padding-bottom: 0.5rem;
+}
+
+.main h2 {
+    color: var(--text-color);
+    margin-top: 2rem;
+}
+
+/* Sidebar styling */
+.css-1d391kg {
+    background-color: var(--background-color);
+}
+
+.css-1d391kg .css-1v0mbdj {
+    background-color: var(--primary-color);
+    color: white;
+    border-radius: var(--border-radius);
+    margin-bottom: 1rem;
+}
+
+/* Tab styling */
+.stTabs [data-baseweb="tab-list"] {
+    gap: 10px;
+    background-color: transparent;
+}
+
+.stTabs [data-baseweb="tab"] {
+    border-radius: var(--border-radius) var(--border-radius) 0px 0px;
+    padding: 12px 24px;
+    background-color: #f0f2f6;
+    border: 1px solid #e0e0e0;
+    transition: all 0.3s ease;
+}
+
+.stTabs [data-baseweb="tab"]:hover {
+    background-color: #e8eaed;
+    transform: translateY(-2px);
+}
+
+.stTabs [aria-selected="true"] {
+    background-color: var(--primary-color);
+    color: white;
+    border-color: var(--primary-color);
+}
+
+/* Button styling */
+.stButton > button {
+    border-radius: var(--border-radius);
+    border: none;
+    transition: all 0.3s ease;
+    font-weight: 500;
+}
+
+.stButton > button:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--box-shadow);
+}
+
+.stButton > button[kind="primary"] {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.stButton > button[kind="secondary"] {
+    background-color: var(--secondary-color);
+    color: white;
+}
+
+/* Card styling */
+.element-container {
+    background-color: white;
+    border-radius: var(--border-radius);
+    padding: 1rem;
+    margin-bottom: 1rem;
+    box-shadow: var(--box-shadow);
+}
+
+/* Metric cards */
+.metric-card {
+    background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+    color: white;
+    padding: 1.5rem;
+    border-radius: var(--border-radius);
+    text-align: center;
+    box-shadow: var(--box-shadow);
+}
+
+/* Task cards */
+.task-card {
+    border-left: 4px solid var(--primary-color);
+    background-color: white;
+    padding: 1rem;
+    margin: 0.5rem 0;
+    border-radius: 0 var(--border-radius) var(--border-radius) 0;
+    box-shadow: var(--box-shadow);
+    transition: all 0.3s ease;
+}
+
+.task-card:hover {
+    transform: translateX(5px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+
+.task-card.high-priority {
+    border-left-color: var(--error-color);
+}
+
+.task-card.medium-priority {
+    border-left-color: var(--warning-color);
+}
+
+.task-card.low-priority {
+    border-left-color: var(--success-color);
+}
+
+/* Note cards */
+.note-card {
+    background-color: #fffbf0;
+    border-radius: var(--border-radius);
+    padding: 1rem;
+    margin: 0.5rem 0;
+    box-shadow: var(--box-shadow);
+    border-left: 4px solid var(--accent-color);
+}
+
+/* Calendar styling */
+.calendar-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 8px;
+    margin: 1rem 0;
+}
+
+.calendar-day {
+    background-color: white;
+    border-radius: var(--border-radius);
+    padding: 0.5rem;
+    min-height: 80px;
+    box-shadow: var(--box-shadow);
+    border: 1px solid #e0e0e0;
+}
+
+.calendar-day.today {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.calendar-day.has-events {
+    border-color: var(--secondary-color);
+}
+
+/* Form styling */
+.stTextInput > div > div > input {
+    border-radius: var(--border-radius);
+    border: 2px solid #e0e0e0;
+    transition: border-color 0.3s ease;
+}
+
+.stTextInput > div > div > input:focus {
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 2px rgba(255, 107, 107, 0.2);
+}
+
+.stSelectbox > div > div > div {
+    border-radius: var(--border-radius);
+    border: 2px solid #e0e0e0;
+}
+
+.stTextArea > div > div > textarea {
+    border-radius: var(--border-radius);
+    border: 2px solid #e0e0e0;
+}
+
+/* Expander styling */
+.streamlit-expanderHeader {
+    background-color: var(--background-color);
+    border-radius: var(--border-radius);
+    border: 1px solid #e0e0e0;
+}
+
+/* Success/Error/Warning messages */
+.stSuccess {
+    background-color: rgba(78, 205, 196, 0.1);
+    border-left: 4px solid var(--success-color);
+    border-radius: 0 var(--border-radius) var(--border-radius) 0;
+}
+
+.stError {
+    background-color: rgba(255, 107, 107, 0.1);
+    border-left: 4px solid var(--error-color);
+    border-radius: 0 var(--border-radius) var(--border-radius) 0;
+}
+
+.stWarning {
+    background-color: rgba(255, 230, 109, 0.1);
+    border-left: 4px solid var(--warning-color);
+    border-radius: 0 var(--border-radius) var(--border-radius) 0;
+}
+
+.stInfo {
+    background-color: rgba(78, 205, 196, 0.1);
+    border-left: 4px solid var(--secondary-color);
+    border-radius: 0 var(--border-radius) var(--border-radius) 0;
+}
+
+/* Progress bars */
+.stProgress .progress-bar {
+    background-color: var(--primary-color);
+    border-radius: var(--border-radius);
+}
+
+/* Charts */
+.js-plotly-plot {
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+}
+
+/* Sidebar radio buttons */
+.stRadio > div {
+    background-color: white;
+    padding: 1rem;
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+}
+
+/* Custom classes for specific components */
+.dashboard-metric {
+    text-align: center;
+    padding: 1rem;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    border-radius: var(--border-radius);
+    margin: 0.5rem 0;
+}
+
+.priority-badge {
+    display: inline-block;
+    padding: 0.25rem 0.5rem;
+    border-radius: 12px;
+    font-size: 0.75rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.priority-high {
+    background-color: var(--error-color);
+    color: white;
+}
+
+.priority-medium {
+    background-color: var(--warning-color);
+    color: var(--text-color);
+}
+
+.priority-low {
+    background-color: var(--success-color);
+    color: white;
+}
+
+/* Animation classes */
+.fade-in {
+    animation: fadeIn 0.5s ease-in;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.slide-in {
+    animation: slideIn 0.3s ease-out;
+}
+
+@keyframes slideIn {
+    from { transform: translateX(-100%); }
+    to { transform: translateX(0); }
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .main .block-container {
+        padding: 1rem;
+    }
+    
+    .calendar-grid {
+        font-size: 0.8rem;
+    }
+    
+    .task-card, .note-card {
+        margin: 0.25rem 0;
+        padding: 0.75rem;
+    }
+}
+
+/* Dark theme support */
+@media (prefers-color-scheme: dark) {
+    :root {
+        --background-color: #1e1e1e;
+        --text-color: #ffffff;
+    }
+    
+    .element-container {
+        background-color: #2d2d2d;
+        color: var(--text-color);
+    }
+    
+    .task-card, .note-card {
+        background-color: #2d2d2d;
+        color: var(--text-color);
+    }
+    
+    .calendar-day {
+        background-color: #2d2d2d;
+        color: var(--text-color);
+        border-color: #404040;
+    }
+}
